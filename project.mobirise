@@ -161,7 +161,7 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-8",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "14",
             "paddingTop": 0,
             "paddingBottom": 0,
             "bgImageRadio": false,
