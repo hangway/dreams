@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 7,
+    "uniqCompNum": 9,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/star-128x119-40.png",
     "noImageResize": "",
@@ -88,18 +88,15 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "image2",
-          "_styles": {
-            "DIV": {
-              "color": "#000000",
-              "font-size": "23px"
-            }
+          "_name": "image1",
+          "_anchor": "image1-7",
+          "_params": {
+            "showText": true
           },
-          "_anchor": "image2-3",
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/stonemask-1400x1036-31.jpg",
+              "src": "@PROJECT_PATH@/assets/images/stonemask-1400x1036-11.jpg",
               "width": 1400,
               "link": "",
               "alt": "",
@@ -110,10 +107,14 @@
               "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "_params": {
-            "showText": true
-          },
-          "text": "Ice and Fire, ignite the mystery of life."
+          "text": "Ice and Fire. Ignite the force of life.",
+          "_styles": {
+            "DIV": {
+              "font-size": "20px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          }
         },
         {
           "_inherit": "header1",
@@ -156,6 +157,59 @@
           "title": "New Possibilities",
           "text": "In dreams and in love there are no impossibilities.<br>János Arany<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">Learn More</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-8",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/photo-4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Drag &amp; Drop Website Builder",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
         }
       ]
     }
