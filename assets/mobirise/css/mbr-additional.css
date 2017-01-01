@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
+
 #header1-0 H1 {
   color: #fff8e0;
 }
@@ -7,17 +8,15 @@
   font-size: 20px;
   font-family: 'Oxygen', sans-serif;
 }
-#header2-4 {
-  
-}
-#header2-4 H1 {
-  text-align: left;
-}
-#header2-4 P {
-  text-align: left;
-  font-size: 32px;
+#content1-9 P {
+  font-size: 46px;
   font-family: 'Oxygen', sans-serif;
+  text-align: right;
 }
 #msg-box4-8 .lead P {
   font-size: 32px;
+  text-align: left;
+}
+#msg-box4-8 .mbr-section-title {
+  text-align: left;
 }

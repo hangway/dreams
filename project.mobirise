@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 9,
+    "uniqCompNum": 10,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/star-128x119-40.png",
     "noImageResize": "",
@@ -117,40 +117,21 @@
           "text": "Ice and Fire. Ignite the force of life."
         },
         {
-          "_inherit": "header1",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_params": {
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "right",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-1.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
-          },
-          "title": "New Possibilities",
-          "text": "In dreams and in love there are no impossibilities.<br>János Arany<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">Learn More</a>",
-          "_customHTML": "<section class=\"mbr-section mbr-section-full\" style=\"background-color: rgb(255, 255, 255);\">\n    <div class=\"mbr-table-cell\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12 col-md-offset-4 text-xs-right\">\n\n                    \n                    <p class=\"lead mbr-editable-content\" code-editable-id=\"10\">In dreams and in love there are no impossibilities.<br>János Arany<br></p>\n                    \n                </div>\n            </div>\n        </div>\n        \n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nH1 {\n\ttext-align: left;\n}\nP {\n\ttext-align: left;\n\tfont-size: 32px;\n\tfont-family: 'Oxygen', sans-serif;\n}\n",
-          "_customTemplate": true,
-          "_anchor": "header2-4"
+          "_name": "content1",
+          "_anchor": "content1-9",
+          "text": "<p>Love looks not with the eyes, but with the mind,&nbsp;<span style=\"line-height: 1.5;\">And therefore is wing'd Cupid painted blind.</span></p><p>Helena, Act I, scene i.</p>",
+          "_styles": {
+            "P": {
+              "font-size": "46px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "text-align": "right"
+            }
+          }
         },
         {
           "_inherit": "msg-box5",
@@ -159,9 +140,18 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "font-size": "32px",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "msg-box4-8",
           "_params": {
-            "imageSize": "14",
+            "imageSize": "10",
             "paddingTop": 0,
             "paddingBottom": 0,
             "bgImageRadio": false,
@@ -206,12 +196,7 @@
           "title": "Within the Realm of Darkness",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Life is enless.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
-          "_styles": {
-            ".lead P": {
-              "font-size": "32px"
-            }
-          }
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
         }
       ]
     }
