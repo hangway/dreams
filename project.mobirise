@@ -123,17 +123,6 @@
             "Theme"
           ],
           "_name": "header2",
-          "_styles": {
-            "H1": {
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "left",
-              "font-size": "32px",
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            }
-          },
           "_anchor": "header2-4",
           "_params": {
             "parallax": true,
@@ -156,7 +145,12 @@
           },
           "title": "New Possibilities",
           "text": "In dreams and in love there are no impossibilities.<br>János Arany<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">Learn More</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">Learn More</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-full\" style=\"background-color: rgb(255, 255, 255);\">\n    <div class=\"mbr-table-cell\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12 col-md-offset-4 text-xs-right\">\n\n                    \n                    <p class=\"lead mbr-editable-content\" code-editable-id=\"10\">In dreams and in love there are no impossibilities.<br>János Arany<br></p>\n                    \n                </div>\n            </div>\n        </div>\n        \n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\nH1 {\n\ttext-align: left;\n}\nP {\n\ttext-align: left;\n\tfont-size: 32px;\n\tfont-family: 'Oxygen', sans-serif;\n}\n",
+          "_customTemplate": true
         },
         {
           "_inherit": "msg-box5",
