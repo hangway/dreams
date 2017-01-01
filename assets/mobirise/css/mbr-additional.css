@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+#header1-0 H1 {
+  color: #fff8e0;
+}
+#image2-3 DIV {
+  color: #000000;
+  font-size: 23px;
+}
+#header2-4 H1 {
+  text-align: left;
+}
+#header2-4 P {
+  text-align: left;
+  font-size: 32px;
+  font-family: 'Oxygen', sans-serif;
+}
